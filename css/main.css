@@ -1,0 +1,51 @@
+/*main开始*/
+.main {
+    /*width: 1800px;*/
+    height: 800px;
+    background-color: #eee;
+    margin: 0 auto;
+    border: 1px solid #999;
+    position: relative;
+    overflow: hidden;
+}
+/*left开始*/
+.left {
+    width: 300px;
+    height: 230px;
+    background-color: white;
+    border: 1px solid #999;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.left img {
+    float: left;
+    margin-top: 30px;
+    margin-left: 16px;
+}
+.left p {
+    margin-top: 28px;
+}
+/*mid开始*/
+.mid {
+    height: 600px;
+    background-color: white;
+    border: 1px solid #999999;
+    margin-left: 380px;
+    margin-top: 30px;
+    margin-right: 280px;
+}
+/*right开始*/
+.right {
+    width: 200px;
+    height: 650px;
+    background-color: white;
+    border: 1px solid #999999;
+    position: absolute;
+    top: 30px;
+    right:40px;
+}
+.right img {
+    margin-left: 50px;
+    padding-top: 45px;
+}
